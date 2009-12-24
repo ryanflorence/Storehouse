@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Storehouse Test/Demo</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+	<script type="text/javascript" src="mootools-1.2.4-core-nc.js"></script>
+	<script type="text/javascript" src="../Source/Storehouse.js"></script>
+	<script type="text/javascript" src="demo.js"></script>
+</head>
+
+<body>
+	<h1>Storehouse.js Test/Demo</h1>
+	<h3>Should dispose the elements and inject them back into the DOM to their original positions</h3>
+
+	<p>
+		<button id="store_red">dispose red</button>
+	</p>
+
+	<div class="container">
+		<div class="red">1</div>
+		<div class="red">2</div>
+		<div>3</div>
+		<div class="red">4</div>
+		<div class="red">5</div>
+		<div>6</div>	
+	</div>
+
+	<p style="clear:both; padding-top: 20px">
+		<button id="store_green">dispose green</button>
+	</p>
+	<div class="container">
+		<div>1</div>
+		<div class="green">2</div>
+		<div>3</div>
+		<div class="green">4</div>
+		<div>5</div>
+		<div class="green">6</div>
+	</div>
+	
+	<p id="links">
+		Storehouse
+		<a href="http://moodocs.net/rpflo/mootools-rpflo/Storehouse">@moodocs.net</a> | 
+		<a href="http://github.com/rpflorence/Storehouse">@github</a>
+		<a href="http://ryanflorence.com" id="avatar"><img src="avatar.png" /></a>
+	</p>
+	
+</body>
+</html>
